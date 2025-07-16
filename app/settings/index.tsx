@@ -1,12 +1,10 @@
 import ScreenView from 'components/screenView';
 import Title from 'components/title';
 
-const HomeScreen = () => {
+export default function SettingsScreen() {
   return (
     <ScreenView>
-      <Title className="">This is the home screen!</Title>
+      <Title className="">This is the settings screen!</Title>
     </ScreenView>
   );
-};
-
-export default HomeScreen;
+}
